@@ -1,4 +1,4 @@
-name: Azure ML Trigger
+name: Model-registered
 
 on:
   repository_dispatch:
