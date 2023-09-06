@@ -1,16 +1,13 @@
-name: Model-registered
+name: ModelRegistered
 
 on:
   repository_dispatch:
-    types: [Model-registered]
+    types: [ModelRegistered]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-
     - name: Do something
       run: echo "Model has been registered!"
